@@ -1,0 +1,10 @@
+<ol class="no-style">
+  <li><%="Your word: #{@attempt}"%></li>
+  <li><%="Your time: #{@result[:time]}"%></li>
+  <li><%="Your translation: #{@result[:translation]}"%></li>
+  <li><%="Your score: #{@result[:score]}"%></li>
+  <li><%="#{@result[:message]}"%></li>
+</ol>
+
+<%= link_to "Retry ?", "game" %>
+<!-- time translation message -->
